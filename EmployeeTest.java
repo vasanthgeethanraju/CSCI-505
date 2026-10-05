@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 public class EmployeeTest {
     public static void main(String[] args) {
         // To create first Employee object
-        Employee employee1 = new Employee(
+        EmployeeOld employee1 = new EmployeeOld(
             101,
             "Geethan",
             "Raju",
@@ -12,7 +12,7 @@ public class EmployeeTest {
         );
 
         // To create second Employee object
-        Employee employee2 = new Employee(
+        EmployeeOld employee2 = new EmployeeOld(
             102,
             "Rajinikanth",
             "Gaikwad",

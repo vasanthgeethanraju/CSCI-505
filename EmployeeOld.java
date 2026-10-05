@@ -1,7 +1,7 @@
 // Employee class with employee information and monthly salary
 import java.math.BigDecimal;
 
-public class Employee {
+public class EmployeeOld {
     // Employee instance variables employeeID, firstName, lastName, and monthlySalary
     private int         employeeID;
     private String      firstName;
@@ -10,7 +10,7 @@ public class Employee {
 
     // Employee Constructor 
     // To initialize the Employee instance variables
-    public Employee(int employeeID, String firstName, String lastName, BigDecimal monthlySalary) {
+    public EmployeeOld(int employeeID, String firstName, String lastName, BigDecimal monthlySalary) {
         this.employeeID = employeeID;
         this.firstName  = firstName;
         this.lastName   = lastName;
